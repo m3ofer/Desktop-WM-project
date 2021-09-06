@@ -15,5 +15,22 @@ a group of genmon plugins and xfce4 plugins that display usefull information:
 - add button  : launcher button adds workspace to bspwm using bspc in a bash script.
 - workspaces  : xfce4 plugin xfce4 workspace switcher.
 ** gtk.css customisation
-the [[./theme/w/gtk.css]]
+   this is just an example of what gtk.css looks like:
+#+BEGIN_SRC css
+ #clock-button {
+    color: #1b222d;
+    font:JetBrainsMono Nerd Font 14;
+    background-color: #7ddcdd; 
+    border-radius: 2px;
+    margin-top:4px;
+    margin-bottom:4px;
+    padding-left:10px;
+    padding-right:10px;
+    box-shadow:2px 2px 2px;
+    margin-left:2px;
+    margin-right:2px;
+
+    }
+#+END_SRC
+this code represents the current date module on the panel.
    
