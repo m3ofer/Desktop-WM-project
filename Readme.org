@@ -1,4 +1,4 @@
-[[./bspwm.png]]
+[[./assets/bspwm.png]]
 * BSPWM Project
 ** the full desktop look
-   [[./bspwm-full.png]]
+   [[./assets/bspwm-full.png]]
