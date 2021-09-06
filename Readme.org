@@ -13,8 +13,9 @@ a group of genmon plugins and xfce4 plugins that display usefull information:
 - battery     : xfce4 plugin xfce4-power-manager-plugin.
 - clipboard   : xfce4 plugin xfce4-clipman-plugin easy way to just have a history of copyed text.
 - music       : genmon script clickable launch cava and shows what song is playing and music is from a music script using fzf + mpv.
-- add button  : launcher button adds workspace to bspwm using bspc in a bash script.
-- workspaces  : xfce4 plugin xfce4 workspace switcher.
+- add button  : launcher button adds workspace to bspwm using bspc in a bash script:
+[[./assets/button.gif]]
+- workspaces  : xfce4 plugin xfce4 workspace switcher:
 ** gtk.css customisation
    this is just an example of what gtk.css looks like:
 #+BEGIN_SRC css
