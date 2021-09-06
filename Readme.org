@@ -34,4 +34,6 @@ a group of genmon plugins and xfce4 plugins that display usefull information:
     }
 #+END_SRC
 this code represents the current date module on the panel.
+** theme switching from dark to light:
+[[./assets/theme.gif]]
    
