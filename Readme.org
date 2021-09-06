@@ -2,3 +2,18 @@
 * BSPWM Project
 ** the full desktop look
    [[./assets/bspwm-full.png]]
+** xfce4-panel
+[[./assets/panel-modules.png]]
+a group of genmon plugins and xfce4 plugins that display usefull information:
+- clock       : a genmon plugin that runs a simple date command.
+- current day : xfce4 plugin xfce4-datetime-plugin.
+- wifi        : genmon script clickable launch script wifi in my script repository.
+- audio       : xfce4 plugin xfce4-pulseaudio-plugin.
+- battery     : xfce4 plugin xfce4-power-manager-plugin.
+- clipboard   : xfce4 plugin xfce4-clipman-plugin easy way to just have a history of copyed text.
+- music       : genmon script clickable launch cava and shows what song is playing and music is from a music script using fzf + mpv.
+- add button  : launcher button adds workspace to bspwm using bspc in a bash script.
+- workspaces  : xfce4 plugin xfce4 workspace switcher.
+** gtk.css customisation
+the [[./theme/w/gtk.css]]
+   
