@@ -4,6 +4,7 @@
    [[./assets/bspwm-full.png]]
 ** xfce4-panel
 [[./assets/panel-modules.png]]
+
 a group of genmon plugins and xfce4 plugins that display usefull information:
 - clock       : a genmon plugin that runs a simple date command.
 - current day : xfce4 plugin xfce4-datetime-plugin.
