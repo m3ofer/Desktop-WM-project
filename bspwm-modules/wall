@@ -1,0 +1,5 @@
+#!/bin/bash
+cp ~/Documents/dunst_theme/big/dunstrc ~/.config/dunst/ && killall dunst && dunst &
+cd ~/.config/wallpaper
+fzf --preview "nitrogen --set-scaled {} && notify-send 'wallpaper setter' 'Command successfully' -i /home/yu/.config/wallpaper/{}" && cp ~/Documents/dunst_theme/small/dunstrc ~/.config/dunst/ && killall dunst && dunst 2>/dev/null
+
