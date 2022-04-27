@@ -10,7 +10,7 @@
 ## 🖥️ the full desktop look
 
 ![](./assets/bspwm-full.png)
-## 🧩 xfce4-panel
+## 🧩 xfce4-panel & Plugins
 ![](./assets/panel-modules.png)
 
 a group of genmon plugins and xfce4 plugins that display usefull information:
