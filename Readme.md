@@ -43,5 +43,4 @@ a group of genmon plugins and xfce4 plugins that display usefull information:
 ```
 this code represents the current date module on the panel and you can check out the [[./theme]] it contains the full thing for dark mode and light mode.
 ## 🎨 theme switching from light to dark
-![](./assets/theme.gif)
    
