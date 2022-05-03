@@ -9,7 +9,7 @@
 
 ## 🖥️ the full desktop look
 
-![](./assets/bspwm-full.png)
+![](./assets/1.png)
 ## 🧩 xfce4-panel & Plugins
 ![](./assets/panel-modules.png)
 
