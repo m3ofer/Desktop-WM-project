@@ -3,27 +3,29 @@
       <img src="https://github.com/m3ofer/bspwm-project/blob/main/Assets/xubuntu.png" alt="Elementary" align="center">
     </center>
   <br>
-  <h1 align="center"><center>BSPWM Desktop Project</center></h1>
+  <h1 align="center"><center>Xfce & Bspwm</center></h1>
   <br>
 </div>
 
 ## 🖥️ the full desktop look
+| Xfce                                             | Bspwm                                             |
+|:------------------------------------------------:|:-------------------------------------------------:|
+| ![e](./Assets/xfce_light.png) 			       | ![@](./Assets/bspwm_dark.png)  			       |
+| ![s](./Assets/xfce_dark.png)  			       | ![@](./Assets/bspwm_light.png) 			       |
 
-![](./assets/1.png)
 ## 🧩 xfce4-panel & Plugins
-![](./assets/panel-modules.png)
 
-a group of genmon plugins and xfce4 plugins that display usefull information:
 - clock       : a genmon plugin that runs a simple date command.
 - current day : xfce4 plugin xfce4-datetime-plugin.
 - wifi        : genmon script clickable launch script wifi in my script repository.
-- audio       : xfce4 plugin xfce4-pulseaudio-plugin.
-- battery     : xfce4 plugin xfce4-power-manager-plugin.
-- clipboard   : xfce4 plugin xfce4-clipman-plugin easy way to just have a history of copyed text.
-- music       : genmon script clickable launch cava and shows what song is playing and music is from a music script using fzf + mpv.
-- add button  : launcher button adds workspace to bspwm using bspc in a bash script:
-      ![](./assets/button.gif)
-- workspaces  : xfce4 plugin xfce4 workspace switcher:
+- audio       : xfce4-pulseaudio-plugin.
+- battery     : xfce4-power-manager-plugin.
+- clipboard   : xfce4-clipman-plugin easy way to just have a history of copyed text.
+- disk size : shows how much space left on the /home folder genmon script clickable.
+- Dark/light switcher : a button that executes xfdark/xflight or for bspwm light/dark.
+- add workspace button : adds workspaces by executing xfclick/click scripts.
+- workspaces : xfce4-workspace-switcher plugin.
+
 ## 🚧  gtk.css customisation
    this is just an example of what gtk.css looks like:
 ``` css
@@ -41,6 +43,13 @@ a group of genmon plugins and xfce4 plugins that display usefull information:
     margin-right:2px;
 }
 ```
-this code represents the current date module on the panel and you can check out the [[./theme]] it contains the full thing for dark mode and light mode.
+this code represents the current date plugin in the panel.
+
 ## 🎨 theme switching from light to dark
-   
+- Xfce demo :
+
+https://user-images.githubusercontent.com/62608203/174412186-577cacb3-f179-4d1c-ad7c-533fae69a07c.mp4
+- Bspwm demo :
+
+https://user-images.githubusercontent.com/62608203/174412288-1a76cdd3-4aa0-4ea6-968c-47ba273db037.mp4
+
