@@ -1,6 +1,6 @@
 <div align="center">
     <center align="center">
-      <img src="https://github.com/m3ofer/bspwm-project/blob/main/assets/xubuntu.png" alt="Elementary" align="center">
+      <img src="https://github.com/m3ofer/bspwm-project/blob/main/Assets/xubuntu.png" alt="Elementary" align="center">
     </center>
   <br>
   <h1 align="center"><center>BSPWM Desktop Project</center></h1>
