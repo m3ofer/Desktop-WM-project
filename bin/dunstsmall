@@ -1,2 +1,0 @@
-#!/bin/bash
-cp ~/.config/dunst_theme/small/dunstrc ~/.config/dunst/dunstrc && killall dunst && dunst
