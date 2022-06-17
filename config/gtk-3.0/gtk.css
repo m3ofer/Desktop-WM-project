@@ -1,0 +1,145 @@
+ #clock-button {
+    color: #7ddcdd;
+    font:JetBrainsMono Nerd Font 14;
+    background-color: #1e1f29; 
+    border-radius: 2px;
+    margin-top:4px;
+    margin-bottom:4px;
+    padding-left:10px;
+    padding-right:10px;
+    box-shadow:2px 2px 2px #000;
+    }
+.xfce4-panel #genmon-5 .genmon_value {
+    color: #ffd484;
+    font:JetBrainsMono Nerd Font 14;
+    background-color: #1e1f29; 
+    border-radius: 2px;
+    margin-top:4px;
+    margin-bottom:4px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:2px;
+    margin-right:4px;
+    box-shadow:2px 2px 2px #000;
+}
+
+.xfce4-panel #genmon-1 .genmon_valuebutton {
+    color: #e68381;
+    font:JetBrainsMono Nerd Font 14;
+    background-color: #1e1f29;
+    border-radius: 2px;
+    margin-top:4px;
+    margin-bottom:4px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:2px;
+    margin-right:4px;
+    box-shadow:2px 2px 2px #000;
+}
+  #pulseaudio-button{
+    color: lightblue;
+    background-color: #1e1f29;
+    border-radius: 2px;
+    margin-top:4px;
+    margin-bottom:4px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:2px;
+    margin-right:2px;
+    box-shadow:2px 2px 2px #000;
+  }
+  #pulseaudio-button image {
+    -gtk-icon-theme:'WhiteSur-dark';
+    -gtk-icon-transform: scale(0.95);
+  }
+   #xfce4-power-manager-plugin{
+    color: lightgreen;
+    background-color: #1e1f29;
+    border-radius: 2px;
+    margin-top:4px;
+    margin-bottom:4px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:2px;
+    margin-right:2px;
+    box-shadow:2px 2px 2px #000;
+   }
+  #xfce4-power-manager-plugin image {
+    -gtk-icon-theme:'elementary-xfce-dark';
+    -gtk-icon-transform: scale(0.75);
+  }
+.xfce4-panel #genmon-3 .genmon_valuebutton {
+    color: lightgreen;
+    font:JetBrainsMono Nerd Font 14;
+    background-color: #1e1f29; 
+    border-radius: 2px;
+    margin-top:4px;
+    margin-bottom:4px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:2px;
+    margin-right:4px;
+    margin-left:2px;
+    margin-right:2px;
+    box-shadow:2px 2px 2px #000;
+}
+#xfce4-clipman-plugin {
+    color: white;
+    background-color: #1e1f29; 
+    border-radius: 2px;
+    margin-top:4px;
+    margin-bottom:4px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:2px;
+    margin-right:2px;
+    box-shadow:2px 2px 2px #000;
+}
+#xfce4-clipman-plugin image {
+  -gtk-icon-transform: scale(0.80);
+} 
+
+.xfce4-panel button { 
+    color: #ffffff;
+    background-color: #1c1b22;
+    border-radius: 2px;
+    margin-top:4px;
+    margin-bottom:4px;
+    padding-left:2px;
+    padding-right:2px;
+    margin-left:2px;
+    margin-right:2px;
+}
+
+.xfce4-panel button:checked { 
+    color: #ffffff;
+    background-color: #1e1f29;
+    border-radius: 2px;
+    margin-top:3px;
+    margin-bottom:3px;
+    padding-left:2px;
+    padding-right:2px;
+    margin-left:2px;
+    margin-right:2px;
+    box-shadow:2px 2px 2px #000;
+}
+
+#launcher-8 #launcher-arrow {
+  background-color:#1c1b22;
+  color:#ffffff;
+}
+
+#launcher-8 #launcher-arrow image {
+  -gtk-icon-transform: scale(0.80);
+}
+
+#launcher-13 #launcher-arrow {
+  color:#000;
+  background-color: #1e1f29;
+  border-radius: 2px;
+  margin-top:4px;
+  margin-bottom:4px;
+  padding-left:10px;
+  padding-right:10px;
+  box-shadow:2px 2px 2px #000;
+}
