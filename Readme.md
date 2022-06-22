@@ -18,7 +18,7 @@
 | ![s](./Assets/xfce_dark.png)  			       | ![@](./Assets/bspwm_light.png) 			       |
 
 ## 🧩 xfce4-panel & Plugins
-
+*Scripts that start with xf are xfce only the rest can be runned under bspwm.*
 - clock       : a genmon plugin that runs a simple date command.
 - current day : xfce4 plugin xfce4-datetime-plugin.
 - wifi        : genmon script clickable launch script wifi in my script repository.
