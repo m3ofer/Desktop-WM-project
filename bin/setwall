@@ -1,0 +1,8 @@
+#!/bin/bash
+dunstbig &
+d="$(echo -e 'wallpaper\nlive wallpaper'| dmenu -c -l 2)"
+case $d in
+	"wallpaper") cd ~/Pictures/wallpaper && bspc rule -a '*' -o state=floating rectangle=478x291+10+50 && st -e fzf --preview "nitrogen --head=0 --set-scaled --save {}"  --preview-window 0 && setwall;;
+	"live wallpaper") cd ~/Videos/livewallpaper/ && bspc rule -a '*' -o state=floating rectangle=478x291+10+50 && st -e fzf --preview "xwinwrap -fs -fdt -ni -b -nf -un -debug -- mpv -wid WID --loop --no-audio {} && notify-send 'live wallpaper setter' 'Command successfully' -i ~/Videos/livewallpaper/{}" --preview-window 0 && setwall;;
+esac
+dunstsmall &

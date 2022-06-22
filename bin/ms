@@ -1,0 +1,9 @@
+#!/bin/bash
+bspc rule -a "mpv" layer=above
+bspc node -g locked
+bspc rule -a '*' -o state=floating rectangle=600x300+10+50 && cd ~/Music/ && st -e fzf --preview "bspc rule -a '*' -o state=floating rectangle=280x280+320+60 && mpv {}"
+# ffmpeg command for album art
+#ffmpeg -i ainsi_bas_lavida.mp3 -an -c:v copy ansi.jpg
+# tmux session
+#tmux split-window -h
+

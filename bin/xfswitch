@@ -1,0 +1,10 @@
+#!/bin/bash
+TOGGLE=$HOME/.toggle
+
+if [ ! -e $TOGGLE ]; then
+    touch $TOGGLE
+    xfdark
+else
+    rm $TOGGLE
+    xflight
+fi

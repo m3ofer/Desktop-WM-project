@@ -1,0 +1,3 @@
+#!/bin/bash
+notify-send "Testing" "Command is successfully" -i ~/Pictures/icons/bash.png
+#notify-send "Testing" "Command is successfully" -i ~/Pictures/icons/0.jpg

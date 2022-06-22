@@ -1,0 +1,50 @@
+#!/bin/bash
+
+a="$(bspc query -D --names | wc -l)"
+
+M(){
+	case $a in
+	  "10")echo"$(bspc monitor HDMI-1 -d 2 3 4 5 6 7 8 9)";;
+	  "9")echo "$(bspc monitor HDMI-1 -d 2 3 4 5 6 7 8)";;
+	  "8")echo "$(bspc monitor HDMI-1 -d 2 3 4 5 6 7)";;
+	  "7")echo "$(bspc monitor HDMI-1 -d 2 3 4 5 6)";;
+	  "6")echo "$(bspc monitor HDMI-1 -d 2 3 4 5)";;
+	  "5")echo "$(bspc monitor HDMI-1 -d 2 3 4)";;
+	  "4")echo "$(bspc monitor HDMI-1 -d 2 3)";;
+	  "3")echo "$(bspc monitor HDMI-1 -d 2)";;
+	esac
+}
+
+D(){
+	case $a in
+	  "10")echo"$(bspc monitor eDP-1 -d 1 2 3 4 5 6 7 8 9)";;
+	  "9")echo "$(bspc monitor eDP-1 -d 1 2 3 4 5 6 7 8)";;
+	  "8")echo "$(bspc monitor eDP-1 -d 1 2 3 4 5 6 7)";;
+	  "7")echo "$(bspc monitor eDP-1 -d 1 2 3 4 5 6)";;
+	  "6")echo "$(bspc monitor eDP-1 -d 1 2 3 4 5)";;
+	  "5")echo "$(bspc monitor eDP-1 -d 1 2 3 4)";;
+	  "4")echo "$(bspc monitor eDP-1 -d 1 2 3)";;
+	  "3")echo "$(bspc monitor eDP-1 -d 1 2)";;
+	  "2")echo "$(bspc monitor eDP-1 -d 1)";;
+	esac
+}
+
+d="$(bspc wm -g | grep -o ':M' | wc -l)"
+case $d in
+	"1") $(M);;
+	"0") $(D);;
+esac
+# if you use xfce this is your go to
+#a="$(xfconf-query -c xfwm4 -p /general/workspace_count)"
+#case $a in
+  #"10")echo "$(xfconf-query -c xfwm4 -p /general/workspace_count -s 9)";;
+  #"9")echo "$(xfconf-query -c xfwm4 -p /general/workspace_count -s 8)";;
+  #"8")echo "$(xfconf-query -c xfwm4 -p /general/workspace_count -s 7)";;
+  #"7")echo "$(xfconf-query -c xfwm4 -p /general/workspace_count -s 6)";;
+  #"6")echo "$(xfconf-query -c xfwm4 -p /general/workspace_count -s 5)";;
+  #"5")echo "$(xfconf-query -c xfwm4 -p /general/workspace_count -s 4)";;
+  #"4")echo "$(xfconf-query -c xfwm4 -p /general/workspace_count -s 3)";;
+  #"3")echo "$(xfconf-query -c xfwm4 -p /general/workspace_count -s 2)";;
+  #"2")echo "$(xfconf-query -c xfwm4 -p /general/workspace_count -s 1)";;
+#esac
+#

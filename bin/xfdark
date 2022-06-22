@@ -1,0 +1,11 @@
+#!/bin/bash
+cp ~/.config/theme/xfd/gtk.css ~/.config/gtk-3.0/gtk.css &
+xfce4-panel-profiles load ~/.config/theme/xfd/xfdark.tar.bz2 &
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitoreDP-1/workspace0/last-image -s  Pictures/wallpaper/Gaming/123456.jpg
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitorHDMI-1/workspace0/last-image -s Pictures/wallpaper/Gaming/123456.jpg
+#xfconf-query -c xsettings -p /Net/ThemeName -s "adw-gtk3-dark"
+xfconf-query -c xsettings -p /Net/ThemeName -s "WhiteSur-dark"
+xfconf-query -c xsettings -p /Net/IconThemeName -s WhiteSur-dark
+xfconf-query -c xfce4-notifyd -p /theme -s Greybird
+termcolor dark

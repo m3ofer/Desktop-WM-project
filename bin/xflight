@@ -1,0 +1,10 @@
+#!/bin/bash
+cp ~/.config/theme/xfw/gtk.css ~/.config/gtk-3.0/gtk.css
+xfce4-panel-profiles load ~/.config/theme/xfw/xflight.tar.bz2
+gsettings set org.gnome.desktop.interface color-scheme prefer-light
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitoreDP-1/workspace0/last-image -s Pictures/wallpaper/ShimerX/wallhaven-83vko2.jpg
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitorHDMI-1/workspace0/last-image -s Pictures/wallpaper/ShimerX/wallhaven-83vko2.jpg
+xfconf-query -c xsettings -p /Net/ThemeName -s "WhiteSur-light"
+xfconf-query -c xsettings -p /Net/IconThemeName -s WhiteSur
+xfconf-query -c xfce4-notifyd -p /theme -s Bright
+termcolor light

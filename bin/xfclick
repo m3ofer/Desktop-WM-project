@@ -1,0 +1,13 @@
+#!/bin/bash
+a="$(xfconf-query -c xfwm4 -p /general/workspace_count)"
+case $a in
+  "1")echo "$(xfconf-query -c xfwm4 -p /general/workspace_count -s 2)";;
+  "2")echo "$(xfconf-query -c xfwm4 -p /general/workspace_count -s 3)";;
+  "3")echo "$(xfconf-query -c xfwm4 -p /general/workspace_count -s 4)";;
+  "4")echo "$(xfconf-query -c xfwm4 -p /general/workspace_count -s 5)";;
+  "5")echo "$(xfconf-query -c xfwm4 -p /general/workspace_count -s 6)";;
+  "6")echo "$(xfconf-query -c xfwm4 -p /general/workspace_count -s 7)";;
+  "7")echo "$(xfconf-query -c xfwm4 -p /general/workspace_count -s 8)";;
+  "8")echo "$(xfconf-query -c xfwm4 -p /general/workspace_count -s 9)";;
+  "9")echo "$(xfconf-query -c xfwm4 -p /general/workspace_count -s 10)";;
+esac

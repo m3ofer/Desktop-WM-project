@@ -1,0 +1,33 @@
+#!/bin/bash
+a="$(bspc query -D --names | wc -l)"
+M(){
+	case $a in
+	  "2")echo "$(bspc monitor HDMI-1 -d 2 3)";;
+	  "3")echo "$(bspc monitor HDMI-1 -d 2 3 4)";;
+	  "4")echo "$(bspc monitor HDMI-1 -d 2 3 4 5)";;
+	  "5")echo "$(bspc monitor HDMI-1 -d 2 3 4 5 6)";;
+	  "6")echo "$(bspc monitor HDMI-1 -d 2 3 4 5 6 7)";;
+	  "7")echo "$(bspc monitor HDMI-1 -d 2 3 4 5 6 7 8)";;
+	  "8")echo "$(bspc monitor HDMI-1 -d 2 3 4 5 6 7 8 9)";;
+	  "9")echo "$(bspc monitor HDMI-1 -d 2 3 4 5 6 7 8 9 10)";;
+	esac
+}
+
+D(){
+	case $a in
+	  "1")echo "$(bspc monitor eDP-1 -d 1 2)";;
+	  "2")echo "$(bspc monitor eDP-1 -d 1 2 3)";;
+	  "3")echo "$(bspc monitor eDP-1 -d 1 2 3 4)";;
+	  "4")echo "$(bspc monitor eDP-1 -d 1 2 3 4 5)";;
+	  "5")echo "$(bspc monitor eDP-1 -d 1 2 3 4 5 6)";;
+	  "6")echo "$(bspc monitor eDP-1 -d 1 2 3 4 5 6 7)";;
+	  "7")echo "$(bspc monitor eDP-1 -d 1 2 3 4 5 6 7 8)";;
+	  "8")echo "$(bspc monitor eDP-1 -d 1 2 3 4 5 6 7 8 9)";;
+	  "9")echo "$(bspc monitor eDP-1 -d 1 2 3 4 5 6 7 8 9 10)";;
+	esac
+}
+d="$(bspc wm -g | grep -o ':M' | wc -l)"
+case $d in
+	"1") $(M);;
+	"0") $(D);;
+esac

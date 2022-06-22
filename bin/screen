@@ -1,0 +1,6 @@
+#!/bin/bash
+a="$(echo -e " full screenshot\n area screenshot" | dmenu -c -l 2)"
+case $a in
+	" full screenshot") xfce4-screenshooter -f;;
+	" area screenshot") xfce4-screenshooter -r;;
+esac

@@ -1,0 +1,19 @@
+#!/bin/bash
+cp ~/.config/theme/d/gtk.css ~/.config/gtk-3.0/gtk.css &
+cp ~/.config/theme/d/settings.ini ~/.config/gtk-3.0/settings.ini &
+cp ~/.config/theme/d/bspwmrc ~/.config/bspwm/bspwmrc
+cp ~/.config/theme/d/dunstrc ~/.config/dunst/dunstrc &
+nitrogen --head=0 --set-scaled --save ~/Pictures/wallpaper/Gaming/123456.jpg
+nitrogen --head=1 --set-scaled --save ~/Pictures/wallpaper/Gaming/123456.jpg
+xfce4-panel-profiles load ~/.config/theme/d/dark.tar.bz2 &
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+killall dunst && dunst
+# if your using xfce desktop then use these lines for wallpapers
+#xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitoreDP-1/workspace0/last-image -s Pictures/wallpaper/Gaming/123456.jpg
+#xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitorHDMI-1/workspace0/last-image -s Pictures/wallpaper/Gaming/123456.jpg
+
+# use this line for adwaita theming
+#xfconf-query -c xsettings -p /Net/ThemeName -s "adw-gtk3-dark"
+# this is for big sur theming
+#xfconf-query -c xsettings -p /Net/ThemeName -s "WhiteSur-dark"
+#xfconf-query -c xsettings -p /Net/IconThemeName -s WhiteSur-dark
