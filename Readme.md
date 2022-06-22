@@ -1,6 +1,10 @@
 <div align="center">
     <center align="center">
-      <img src="https://github.com/m3ofer/bspwm-project/blob/main/Assets/xubuntu.png" alt="Elementary" align="center">
+      <img src="https://github.com/m3ofer/Desktop-WM-project/blob/main/Assets/xubuntu.png" alt="Elementary" align="center">
+       .
+        &
+        .
+      <img src="https://github.com/m3ofer/Desktop-WM-project/blob/main/Assets/124.png" alt="Elementary" align="center">
     </center>
   <br>
   <h1 align="center"><center>Xfce & Bspwm</center></h1>
@@ -49,6 +53,7 @@ this code represents the current date plugin in the panel.
 - Xfce demo :
 
 https://user-images.githubusercontent.com/62608203/174412186-577cacb3-f179-4d1c-ad7c-533fae69a07c.mp4
+
 - Bspwm demo :
 
 https://user-images.githubusercontent.com/62608203/174412288-1a76cdd3-4aa0-4ea6-968c-47ba273db037.mp4
