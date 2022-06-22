@@ -49,12 +49,11 @@
 ```
 this code represents the current date plugin in the panel.
 
-## 🎨 theme switching from light to dark
-- Xfce demo :
+# 🎨 theme switching from light to dark
 
 https://user-images.githubusercontent.com/62608203/174412186-577cacb3-f179-4d1c-ad7c-533fae69a07c.mp4
 
-- Bspwm demo :
+# testing
 
 https://user-images.githubusercontent.com/62608203/174412288-1a76cdd3-4aa0-4ea6-968c-47ba273db037.mp4
 
